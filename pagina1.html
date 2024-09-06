@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carta de Amor</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #f4f4f4; /* Color de fondo alternativo */
+        }
+        .card {
+            position: relative;
+            width: 80%;
+            max-width: 800px;
+            height: 80%;
+            max-height: 600px;
+            background: url('fondo.jpg') no-repeat center center/cover; /* Ruta a la imagen de fondo */
+            border-radius: 10px;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+            color: #fff;
+            overflow: hidden;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .message {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            text-align: center;
+            padding: 20px;
+            background: rgba(0, 0, 0, 0.5); /* Fondo semitransparente para mejor legibilidad */
+            border-radius: 10px;
+        }
+        .message h1 {
+            margin: 0;
+            font-size: 2em;
+            margin-bottom: 10px;
+        }
+        .message p {
+            font-size: 1.2em;
+            line-height: 1.5;
+            margin: 0;
+        }
+        .message .footer {
+            margin-top: 20px;
+            font-size: 0.9em;
+            color: #ddd;
+        }
+    </style>
+</head>
+<body>
+    <div class="card">
+        <div class="message">
+            <h1>Querida Shery ❤️</h1>
+            <p>
+                Desde el momento en que nuestras vidas se cruzaron, supe que había encontrado a alguien especial. 
+                Cada día contigo es un regalo y una aventura, y no hay palabras suficientes para expresar lo agradecido que estoy 
+                por tenerte en mi vida. Eres mi alegría, mi apoyo y mi inspiración. Con cada sonrisa tuya y cada momento que vivo a tu lado , mi corazón se llena de amor.
+            </p>
+            <p>
+                Gracias por ser tú y por hacer mi vida más hermosa. Te amo más de lo que las palabras pueden decir.
+            </p>
+            <p>
+                Con todo mi amor,<br>
+                Tu Negro ❤️
+            </p>
+            <p class="footer">
+                Esta carta es para ti con todo mi cariño. ❤️
+            </p>
+        </div>
+    </div>
+</body>
+</html>
